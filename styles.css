@@ -140,6 +140,12 @@ h1{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
+  }
+  .galeriafotos p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
   }
 
   .gallery {
@@ -170,11 +176,63 @@ h1{
   }
 
 
+
+
+
+
+
+
+
+  .poemas{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #frase{
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .poemas button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+  }
+
+
+
+
+
+
+
+
+
   @media screen and (max-width: 800px) {
     body{
         background-image: url("fondocelu.jpg");
+    }
+    .texto-nuevo{
+        background-image: url("fondocelu2.jpg");
     }
     .gallery {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       }
   }
+
+
+
+
+
+
