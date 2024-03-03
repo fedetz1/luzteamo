@@ -117,7 +117,7 @@ const idiomasContainer = document.getElementById("idiomas");
         function haLlegadoAlFinal() {
           const distanciaAlFondo = document.documentElement.offsetHeight - (window.innerHeight + window.scrollY);
   
-          if (distanciaAlFondo < 1 && !llego) {
+          if (distanciaAlFondo < 100 && !llego) {
             // El usuario ha llegado al final, realiza la acción que desees
             textoNuevo.style.opacity="0"
             setTimeout(()=>{
