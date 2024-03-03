@@ -170,7 +170,10 @@ h1{
   }
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
+    body{
+        background-image: url("fondocelu.jpg");
+    }
     .gallery {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       }
