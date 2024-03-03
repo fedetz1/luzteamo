@@ -9,6 +9,7 @@ container.addEventListener("click", (event) => {
 
     const elem = document.createElement("button");
     elem.classList.add("no-estilo", "shake");
+    elem.id="boton-no"
     elem.innerHTML = "No te amo y nunca te amé :(";
     container.appendChild(elem);
 
