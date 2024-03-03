@@ -24,6 +24,7 @@ body{
 
 .container{
     overflow: hidden;
+    height: 80vh !important;
 }
 
 
