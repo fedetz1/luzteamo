@@ -131,17 +131,15 @@ h1{
 
   .galeriafotos{
     transition: all 1s;
-    display: none;
+    display: none !important;
     opacity: 0;
-  }
-
-
-  .galeriafotos {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
   }
+
+
   .galeriafotos p{
     margin-top: 20px;
     margin-bottom: 20px;

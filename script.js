@@ -114,7 +114,7 @@ const idiomasContainer = document.getElementById("idiomas");
             textoNuevo.style.opacity="0"
             setTimeout(()=>{
                 textoNuevo.style.display="none"
-                galeria.style.display="flex"
+                galeria.style.display="flex !important"
                 galeria.style.opacity="100"
                 window.scrollTo(0, 0);
                 llego=true
