@@ -3,6 +3,13 @@ const botonSi = document.getElementById("boton-si");
 const container = document.getElementById("contenedor");
 let apretado=false
 const textoNuevo=document.getElementById("texto-nuevo")
+if (window.innerWidth <= 600) {
+    document.body.style.overflow = 'hidden';
+
+    window.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+    });
+  }
 container.addEventListener("click", (event) => {
   if (event.target.classList.contains("no") && !apretado) {
     event.target.remove();
@@ -48,6 +55,7 @@ botonSi.addEventListener("click", function() {
   botonSi.disabled = true;
   const botonNo = document.getElementById("boton-no")
   botonNo.classList.remove("no")
+  document.body.style.overflow = 'auto';
 
 
   setTimeout(()=>{
@@ -114,7 +122,7 @@ const idiomasContainer = document.getElementById("idiomas");
             textoNuevo.style.opacity="0"
             setTimeout(()=>{
                 textoNuevo.style.display="none"
-                galeria.style.display="flex !important"
+                galeria.style.display="flex"
                 galeria.style.opacity="100"
                 window.scrollTo(0, 0);
                 llego=true
