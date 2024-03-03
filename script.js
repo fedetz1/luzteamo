@@ -42,7 +42,7 @@ botonSi.addEventListener("click", function() {
   const lluviaContainer = document.getElementById("lluvia");
     apretado=true
   // Crea corazones y añádelos al contenedor
-  for (let i = 0; i < 40; i++) {
+  for (let i = 0; i < 100; i++) {
     const corazon = document.createElement("img");
     corazon.classList.add("corazon");
     corazon.src = "corazon.webp"; // Ruta a tu imagen de corazón
@@ -93,7 +93,7 @@ const idiomasContainer = document.getElementById("idiomas");
       
 
       // Texto original
-      const mensajeOriginal = "Te amo";
+      const mensajeOriginal = "puta";
 
       // Itera sobre los códigos de idiomas y realiza las traducciones
       codigosIdiomas.forEach(function(codigoIdioma) {
