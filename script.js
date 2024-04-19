@@ -93,7 +93,7 @@ const idiomasContainer = document.getElementById("idiomas");
       
 
       // Texto original
-      const mensajeOriginal = "puta";
+      const mensajeOriginal = "te amo";
 
       // Itera sobre los códigos de idiomas y realiza las traducciones
       codigosIdiomas.forEach(function(codigoIdioma) {
